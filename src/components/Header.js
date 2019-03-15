@@ -210,6 +210,13 @@ export default function Header({ githubUrl, inverse, framework, firstChapter, is
                           >
                             Português
                           </LanguageLink>
+                          <LanguageLink
+                            className="tertiary"
+                            isGatsby
+                            to={`/react/ru/${firstChapter}/`}
+                          >
+                            Русский
+                          </LanguageLink>
                         </Detail>
                       </Meta>
                     </TooltipItem>
